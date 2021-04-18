@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.btn-outline-primary {
+  color: #C5C6C7 !important;
+  border:solid !important;
+  border-color: #45A29E !important;
+  border-width: 0.1rem !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #45A29E !important;
+  color: #6B6E70 !important;
+  border-color: #45A29E !important;
+  border-width: 0.1rem !important;
+}
+
+.btn-outline-primary:focus {
+  background-color: #45A29E !important;
+  color: #6B6E70 !important;
+  border-color: #45A29E !important;
+  border-width: 0.1rem !important;
+}
+
+.btn-outline-primary:active {
+  color: #C5C6C7 !important;
+  border:solid !important;
+  border-color: #45A29E !important;
+  border-width: 0.1rem !important;
+}
+
+.heading {
+  font-size: x-large;
+  color: #C5C6C7;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.form-control {
+  border: solid !important;
+  border-color: #45A29E !important;
+  border-width: 0.15rem !important;
+  background-color: rgba(69, 162, 157, 0.542) !important;
+  color: #C5C6C7 !important;
+  width: 45vw !important;
+}
+
+.artist-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  color: #C5C6C7;
+  font-size: large;
+  font-weight: lighter;
+}
+
+.list-group-item {
+  background-color: #0B0C10 !important;
+  color: #C5C6C7 !important;
+}
+
+.artist-wrapper {
+  border: solid !important;
+  border-color: #45A29E !important;
+  border-width: 0.1rem !important;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #C5C6C7;
+  font-weight: light;
+  font-size: large;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #C5C6C7;
+  font-weight: light;
+  font-size: large;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.top-tracks {
+  color: #C5C6C7;
+  font-weight: bold;
+  font-size: large;
+}
