@@ -16,7 +16,7 @@ function Details () {
     .then(response => response.json())
     .then(response => { setArtist(response); })
     .catch(error => { console.error(error); })
-  }, [])
+  }, [id])
 
   useEffect(()=> {
     fetch(`${artist.tracklist}`, {

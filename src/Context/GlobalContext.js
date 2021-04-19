@@ -21,9 +21,9 @@ function GlobalContext ({children}){
       setLoading(false);
       setTracks(response);
     })
-    .catch(error => {
+    .catch(err => {
       setError(true);
-      console.error(error);
+      console.error(err);
       setLoading(false);
     })
   }, [trackName])
