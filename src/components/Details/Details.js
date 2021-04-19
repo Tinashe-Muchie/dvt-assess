@@ -10,7 +10,7 @@ function Details () {
   const [ tracklist, setTrackList ] = useState({});
 
   useEffect(()=> {
-    fetch(`https://api.deezer.com/artist/${id}`, {
+    fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/${id}`, {
       "method": "GET"
     })
     .then(response => response.json())
