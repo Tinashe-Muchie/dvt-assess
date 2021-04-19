@@ -3,7 +3,7 @@ import './App.css';
 import GlobalContext from './Context/GlobalContext';
 import Details from './components/Details/Details';
 import Home from './components/Home/Home';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 
 class App extends Component {
