@@ -13,7 +13,7 @@ function GlobalContext ({children}){
 
   useEffect(()=>{
 
-    fetch(`https://cors-anywhere.herokuapp.com/api.deezer.com/search?q=${trackName}`, {
+    fetch(`https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=${trackName}`, {
         "method" : "GET"
     })
     .then(response => response.json())
